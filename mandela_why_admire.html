@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >MANDELA TRIBUTE</title>
+    <style>
+        body {
+            background-color: #e2dddd;
+        }
+     .right-image{
+       
+       margin-left: 130px;
+       float: right;
+       top: 50%;
+       left: 60%;
+     }
+     footer{
+        
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-image: url("C:/Users/DIANNA/Pictures/johanesburg1.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-top: 80px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: flex-start;
+
+     }
+     text-content{
+        padding: 20px;
+        color: rgb(16, 176, 94);
+     }
+     h1{
+        margin-right: 60px;
+        color: aqua;
+    .h1:hoover{
+      transition-duration: 0.3s;
+    }
+        
+        
+        
+     }
+     nav{
+        background-color: #222;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul{
+        float: right;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li{
+        float: left;
+    }
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+        display: block;
+    }
+    
+    nav a:hover{
+        text-decoration: underline;
+    }
+     
+    </style>
+</head>
+<nav id="navbar">
+    <ul>
+        <li> <a href="mandela_achievements.html">achievements and impacts</a></li>
+        
+        <li> <a href="index.html">home</a></li>
+    </ul>
+    </nav>
+<body>
+    <header>
+        <footer>
+        <h1> NELSON MANDERA TRIBUTE</h1>
+    </footer>
+        <img src="C:/Users/DIANNA/Pictures/nelson new.jpg" 
+        alt="Nelson mandela" class="right-image">
+        <P>He was the first president of South Africa</P>
+        <p>He cotributed much to the attainment of their independence</p>
+    </header>
+    <div class="role model">
+        <li>
+            <h2>
+                <ins>
+                    Why i admire nelson mandela:
+                </ins>
+            </h2>
+            <ol class="list1">
+                
+                    <b>LEADER AND VISION:</b>
+                
+            </ol>
+                <P>
+                    Mandera's leadership in the fight against apartheid demonstrates<br>
+                his commitment to justice and equality.<br>
+            His vision for a unified south africa inspired million.
+                </P>
+            <ol class="list2">
+                
+                    <b>
+                        ADVOCACY FOR HUMAN RIGHTS:
+                    </b>
+                
+            </ol>
+            <p>
+                Mandela fought for the rights of all south africans irregardless of<br>
+            of race and background.<br>
+            His work extended beyond south africa, influencing global human rights movement.
+            </p>
+            <ol class="list3">
+                
+                    <b>
+                        COMMITMENT TO PEACE AND RECONCILIATION:
+                    </b>
+                
+            
+            <p>
+                Mandera choose peace over revenge after apartheid.<br>
+            He established the <b>Truth and Reconciliation Commission</b> to promote healing.
+            </p>
+            </ol>
+            <ol class="list4">
+                
+                    <b>
+                        DEDICATION TO EDUCATION:
+                    </b>
+                
+            
+            <p>
+                He believed that <b>"education is the most powerful weapon which you can use <br>
+                to change the world."</b><br>
+            He promoted education as a tool of breaking cycles of <b>poverty and oppression.</b>
+            </p>
+            </ol>
+            <ol class="list5">
+                
+                    <b>
+                        LEGACY AND INSPIRATIONS:
+                    </b>
+                
+            
+            <p>His life continues to inspire leaders, activists and ordinary people to fight for <br>
+            justice.<br>
+            He set an example to humility, service and dedication to positive change.</p>
+        </ol>
+        </li>
+            
+
+    </div>
+    <button id="adm-button" onclick="admirations()">show more</button>
+    <script>
+        function admirations()
+        {
+        var classes = ["list3", "list4", "list5"];
+        var AllHidden = true;
+        for(i = 0;i < classes.length;i++)
+        {
+        var elements = document.getElementsByClassName(classes[i]);
+            for(j = 0; j < elements.length;j++)
+           {
+            if
+            (elements[j].style.display ==="none" ||
+             elements[j].style.display ==="")
+             {
+              elements[j].style.display = "block";
+             
+             AllHidden = false;
+            
+                
+            }
+            else {
+                elements[j].style.display = "none";
+            }
+           }
+        }
+        
+       
+       var button = document.getElementById("adm-button")
+       if
+       (AllHidden){
+       button.textContent = "Show more"}
+       else{
+        button.textContent = "Show Less"
+       }
+    }
+    </script>
+    <div class="navbar">
+        <ul> <a href="mandela_achievements.html">achievements</a></ul>
+        
+        <ul> <a href="index.html">home</a></ul>
+        
+    </div>
+</body>
+</html>

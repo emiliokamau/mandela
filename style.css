@@ -1,0 +1,179 @@
+.home-page{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.home-page header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.home-page header img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+.navbar{
+    background-color: #232324;
+    padding: 10px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 10px;
+
+}
+.navbar ul li{
+
+    display: inline;
+    margin: 0 15px;
+}
+.home-page ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    background-color: #f4a261;
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius: 5px;
+    
+}
+.home-page .contact-container {
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.home-page #contact-details {
+    display: none;
+    margin-top: 10px;
+}
+
+.home-page button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+    
+}
+
+.home-page button:hover {
+    background-color: #218838;
+}
+.contact{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Social Media Icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+
+.home-page footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.contact-container{
+    text-align: center;
+    margin-top: 20px;
+}
+#contactdetails{
+    display: none;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px auto;
+}
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #151616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button.hover{
+    background-color: #899db2;
+}
+footer{
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.achievements-page{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+.achievements-page{
+    color: #333;
+    margin-top: 30px;
+}
+.achievements-page{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 15px;
+    border: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+.achievements-page{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.achievements-page:hover{
+    background-color: #1a1b1b;
+}
+.achievements-page{
+    margin-top: 40px;
+    background: #333;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
